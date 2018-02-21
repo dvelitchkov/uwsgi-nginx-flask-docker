@@ -1,4 +1,4 @@
-FROM tiangolo/uwsgi-nginx:python2.7
+FROM dvelitchkov/uwsgi-nginx:python2.7
 
 RUN pip install flask
 
